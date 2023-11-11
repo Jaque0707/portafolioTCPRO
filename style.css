@@ -1,0 +1,405 @@
+/* Barra de navegacion */
+
+.navbar {
+  padding: 2rem;
+  background-color: #494981; 
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;  
+}
+
+/* Estilo para el primer enlace */
+.nav-item:nth-child(1) .nav-link {
+  color: #f4d3ea;
+}
+
+/* Estilo para el segundo enlace */
+.nav-item:nth-child(2) .nav-link {
+  color: #d1ed87; 
+}
+
+/* Estilo para el tercer enlace */
+.nav-item:nth-child(3) .nav-link {
+  color: #ffd8a9; 
+}
+
+.nav-link{
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 600;
+}
+
+/* Estilos generales */
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family:  'Pacifico', cursive;
+  color: #a4f0ff;
+}
+
+
+.seccion-oscura { 
+  color: #f4d3ea;
+  background-color: #494981;
+}
+
+/* .seccion-oscura { 
+  color: #f4d9ec;
+  background-color: #1b1b32;
+} */
+
+.seccion-clara {
+  color: #f4d9ec;
+  background-color: #1b1b32;
+}
+
+/* .seccion-clara {
+  color: #1b1b32;
+  background-color: #c6cde9;
+} */
+
+.seccion-titulo {
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: 'Pacifico', cursive;
+}
+
+.seccion-descripcion {
+  font-size: 1.2rem;
+  color: #584e4e;
+}
+
+.seccion-texto {
+  font-size: 1.2rem;
+}
+
+.btn-info {
+  font-size: 1.1rem;
+  margin: 20px;
+}
+
+.texto-negro {
+  color: black;
+}
+
+.texto-blanco {
+  color: white;
+}
+
+/* Seccion Hero */
+.hero {
+  background-color: #1b1b32;
+  min-height: 450px;
+  text-align: center;
+}
+
+.hero-principal {
+  padding: 3rem;
+}
+
+.imagen-desarrollador {
+  width: 200px;
+  margin: 20px;
+  border-radius: 10%;
+  border: 5px solid #a4f0ff;
+}
+
+.hero-principal h2 {
+  font-size: 1.5rem;
+  color: #f4d9ec !important;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Sobre mi */
+
+.sobre-mi {
+  height: 500px;
+  padding: 10px;
+}
+
+.sobre-mi .contenedor {
+  max-width: 600px;
+  text-align: center;
+}
+
+.seccion-titulo{
+  color:#f4d3ea;
+}
+
+.seccion-texto{
+  font-family: 'Roboto', sans-serif !important;
+}
+
+/* Experiencia */
+
+.experiencia {
+  padding: 40px 40px 60px 40px;
+}
+
+.experiencia .columna {
+  padding: 20px;
+  border: 1px solid #a4f0ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: all 0.2s ease-in;
+  font-family: 'Roboto', sans-serif;
+}
+
+.experiencia .columna:hover {
+  color: #a4f0ff;
+  background-color: #1b1b32;
+}
+
+.experiencia i {
+  font-size: 2.5rem;
+  color: #f4d3ea;
+  background-color: #1b1b32;
+  padding: 8px 19px;
+  border-radius: 50%;
+}
+
+.experiencia-titulo {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badges-contenedor {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+  
+}
+
+.badge {
+  margin: 5px;
+  color: #1b1b32 !important;
+  background-color:  #a4f0ff !important;
+}
+
+/* Proyectos */
+
+.proyectos-recientes {
+  padding: 40px;
+}
+
+.seccion-titulo-proyectos{
+  color: #d1ed87;
+  font-family: 'Pacifico', cursive;
+}
+
+.seccion-descripcion{
+  color: #d1ed87;
+  font-family: 'Roboto', sans-serif;
+}
+
+.proyectos-recientes img {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  transition: all 0.2s ease;
+}
+
+.proyectos-contenedor {
+  padding-top: 60px;
+  margin-bottom: 40px;
+}
+
+.overlay {
+  transition: all 0.2s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay p {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.proyecto {
+  position: relative;
+  color: #d1ed87;
+}
+
+.proyecto:hover img {
+  opacity: 0.2;
+}
+
+.proyecto:hover .overlay {
+  opacity: 1;
+}
+
+.overlay .iconos-contenedor {
+  display: flex;
+}
+
+.overlay i {
+  color: #d1ed87;
+  font-size: 60px;
+  margin: 10px;
+}
+
+/* Contacto */
+
+.contacto .container {
+  max-width: 1100px;
+  min-height: 200px;
+  padding: 20px;
+}
+
+.contacto .rectangulo {
+  margin-top: -5rem;
+  background-color: #1b1b32;
+  border-radius: 10px;
+  box-shadow: 1px 2px 5px 2px #ffd8a9; 
+}
+
+.contacto .row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.contacto .descripcion {
+  color: #ffd8a9;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+}
+
+.contacto button {
+  color: #ffd8a9;
+  font-weight: bold;
+  background-color: transparent;
+  border: 2px solid #ffd8a9;
+  padding: 1.25em 2em;
+  margin: 10px;
+  border-radius: 100px;
+  transition: all 0.2s ease-in-out;
+}
+
+.contacto .seccion-titulo{
+  color: #ffd8a9; 
+}
+
+.contacto button:hover {
+  background-color:#ffd8a9;
+  color: #1b1b32;
+}
+
+.contacto button i {
+  color: #ffd8a9;
+  font-size: 1.3rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover i {
+  color: #1b1b32;
+}
+
+/* Pie de pagina (footer) */
+
+footer {
+  min-height: 500px;
+}
+
+.footer-logo {
+  height: 110px;
+  width: 110px;
+  margin: 10px;
+}
+
+.footer-texto {
+  font-size: 1.5rem;
+  padding: 20px;
+  margin-bottom: 30px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #a4f0ff;
+  font-weight: 600;
+
+}
+
+.iconos-redes-sociales a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid #a4f0ff;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+  color: #a4f0ff;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+  background-color: #1b1b32;
+  border: 2px solid #f4d3ea;
+}
+
+.iconos-redes-sociales a:hover i {
+  color: #f4d3ea;
+}
+
+.derechos-de-autor {
+  font-size: 15px;
+  color: #f4d3ea;
+  padding: 20px;
+}
+
+/* Adaptable (Responsivo) */
+
+@media screen and (max-width: 400px) {
+  .overlay p {
+    font-size: 18px;
+  }
+
+  .overlay i {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .testimonio-imagen {
+    height: 120px;
+    width: 120px;
+  }
+
+  .testimonio-texto {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .hero-inferior-imagen {
+    max-width: 600px;
+  }
+}

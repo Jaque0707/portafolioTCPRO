@@ -207,9 +207,15 @@ h1 {
   height: 100%;
   width: 100%;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 20px;
   display: block;
   transition: all 0.2s ease;
+}
+
+.proyecto .pro2{
+  height: 56%;
+  width: 56%;
+  margin-left: 22.2%;
 }
 
 .proyectos-contenedor {

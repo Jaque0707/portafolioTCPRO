@@ -20,13 +20,9 @@ Proyectos:
 
 ![Proyectos](imagenes/screenshot3.png)
 
-Testimonios:
-
-![Testimonios](imagenes/screenshot4.png)
-
 Contacto:
 
-![Contacto](imagenes/screenshot5.png)
+![Contacto](imagenes/screenshot4.png)
 
 ## Tecnologías
 
